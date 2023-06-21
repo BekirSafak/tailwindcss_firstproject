@@ -15,22 +15,47 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!--CSS-->
     <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!--Header Start-->
-    <header class="bg-flower-green py-12 text-black font-gemunu">
+    <header class="bg-flower-green py-6 lg:py-12 text-black">
+
         <!-- Container Start -->
-        <div class="container flex items-center justify-between space-x-16">
+        <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+
             <!--Logo Start-->
             <a href="#"
-                class="text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-flower-yellow to bg-flower-pink text-flower-yellow">GARDENFUN</a>
+                class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-flower-yellow to bg-flower-pink text-flower-yellow">GARDENFUN</a>
             <!--Logo End-->
+
+
+            <!--Mobile Menu Start-->
+            <div class="hamburger pr-4 flex md:hidden items-center text-xl space-x-4">
+                <a href="#" class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+            <!--Mobile Drop Menu Start-->
+            <div class="toggle hidden absolute bg-flower-green right-0 w-full top-[9%]">
+                <div class="flex flex-col items-center lg:text-xl space-y-3">
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Çiçekler</a>
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Ağaçlar</a>
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Topraklar</a>
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">İlaçlar</a>
+                    <a href="#" class="pb-3 hover:text-flower-pink text-white transition duration-300">Saksılar</a>
+                </div>
+            </div>
+            <!--Mobile Drop Menu End-->
+            <!--Mobile Menu End-->
+
+
             <!--Navbar Start-->
-            <nav class="flex justify-between flex-1">
+            <nav class="hidden md:flex justify-between flex-1">
                 <!--Menu Start-->
-                <div class="flex items-center text-xl space-x-8">
+                <div class="flex items-center lg:text-xl space-x-4 lg:space-x-8">
                     <a href="#" class="hover:text-flower-pink text-white transition duration-300">Çiçekler</a>
                     <a href="#" class="hover:text-flower-pink text-white transition duration-300">Ağaçlar</a>
                     <a href="#" class="hover:text-flower-pink text-white transition duration-300">Topraklar</a>
@@ -38,23 +63,34 @@
                     <a href="#" class="hover:text-flower-pink text-white transition duration-300">Saksılar</a>
                 </div>
                 <!--Menu End-->
-
                 <!--Userbox Start-->
-                <div class="flex items-center text-2xl space-x-8">
-                    <div class="flex items-center text-xl space-x-4">
-                        <a href="#" class="text-white hover:text-flower-pink transtion duration-300"><i
+                <div class="flex items-center space-x-8">
+                    <div class="flex items-center lg:text-xl space-x-4">
+                        <a href="#"
+                            class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
                                 class="px-2 fas fa-cart-shopping"></i>Sepetim</a>
-                        <a href="#" class="text-white hover:text-flower-pink transtion duration-300"><i
+                        <a href="#"
+                            class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
                                 class="px-2 fas fa-user"></i>Hesabım</a>
                     </div>
                 </div>
                 <!--Userbox End-->
             </nav>
             <!--Navbar End-->
+
         </div>
         <!-- Container End -->
+
     </header>
     <!--Header End-->
+
+
+
+
+
+
+    <!--JS-->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
