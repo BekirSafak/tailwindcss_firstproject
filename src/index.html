@@ -10,16 +10,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
         rel="stylesheet">
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="text-3xl font-bold font-gemunu text-flower-yellow">
-            Hello world!
-        </h1>
-    </div>
+    <!--Header Start-->
+    <header class="bg-flower-green py-12 text-black font-gemunu">
+        <!-- Container Start -->
+        <div class="container flex items-center justify-between space-x-16">
+            <!--Logo Start-->
+            <a href="#"
+                class="text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-flower-yellow to bg-flower-pink text-flower-yellow">GARDENFUN</a>
+            <!--Logo End-->
+            <!--Navbar Start-->
+            <nav class="flex justify-between flex-1">
+                <!--Menu Start-->
+                <div class="flex items-center text-xl space-x-8">
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Çiçekler</a>
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Ağaçlar</a>
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Topraklar</a>
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">İlaçlar</a>
+                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Saksılar</a>
+                </div>
+                <!--Menu End-->
+
+                <!--Userbox Start-->
+                <div class="flex items-center text-2xl space-x-8">
+                    <div class="flex items-center text-xl space-x-4">
+                        <a href="#" class="text-white hover:text-flower-pink transtion duration-300"><i
+                                class="px-2 fas fa-cart-shopping"></i>Sepetim</a>
+                        <a href="#" class="text-white hover:text-flower-pink transtion duration-300"><i
+                                class="px-2 fas fa-user"></i>Hesabım</a>
+                    </div>
+                </div>
+                <!--Userbox End-->
+            </nav>
+            <!--Navbar End-->
+        </div>
+        <!-- Container End -->
+    </header>
+    <!--Header End-->
 </body>
 
 </html>
