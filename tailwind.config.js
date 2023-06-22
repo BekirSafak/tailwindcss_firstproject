@@ -23,8 +23,10 @@ module.exports = {
         'flower-blue': '#3F6E9E',
         'flower-light-blue': '#97BEC9',
         'flower-light-green': '#C1E39E'
+      },
 
-
+      spacing: {
+        512: '32rem',
       }
     },
   },
