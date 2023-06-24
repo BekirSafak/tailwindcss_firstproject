@@ -14,6 +14,10 @@
         @apply font-gemunu;
     }
 
+    h2 {
+        @apply text-2xl tracking-wider;
+    }
+
     a {
         @apply font-gemunu;
     }

@@ -2,138 +2,374 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
-        rel="stylesheet">
-    <!--Fontawesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
+		rel="stylesheet">
+	<!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!--CSS-->
-    <link href="./css/style.css" rel="stylesheet">
+	<!--CSS-->
+	<link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!--Header Start-->
-    <header class="bg-flower-green py-6 lg:py-12 text-black">
+	<!--Header Start-->
+	<header class="bg-flower-green py-6 lg:py-12 text-black">
 
-        <!-- Container Start -->
-        <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+		<!-- Container Start -->
+		<div class="container flex items-center justify-between space-x-8 lg:space-x-16">
 
-            <!--Logo Start-->
-            <a href="#"
-                class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-flower-yellow to bg-flower-pink text-flower-yellow">GARDENFUN</a>
-            <!--Logo End-->
-
-
-            <!--Mobile Menu Start-->
-            <div class="hamburger pr-4 flex md:hidden items-center text-xl space-x-4">
-                <a href="#" class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300">
-                    <i class="fas fa-bars"></i>
-                </a>
-            </div>
-            <!--Mobile Drop Menu Start-->
-            <div class="z-10 toggle hidden absolute bg-flower-green right-0 w-full top-[9%]">
-                <div class="flex flex-col items-center lg:text-xl space-y-3">
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Çiçekler</a>
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Ağaçlar</a>
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Topraklar</a>
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">İlaçlar</a>
-                    <a href="#" class="pb-3 hover:text-flower-pink text-white transition duration-300">Saksılar</a>
-                </div>
-            </div>
-            <!--Mobile Drop Menu End-->
-            <!--Mobile Menu End-->
+			<!--Logo Start-->
+			<a href="#"
+				class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-flower-yellow to bg-flower-pink text-flower-yellow">GARDENFUN</a>
+			<!--Logo End-->
 
 
-            <!--Navbar Start-->
-            <nav class="hidden md:flex justify-between flex-1">
-                <!--Menu Start-->
-                <div class="flex items-center lg:text-xl space-x-4 lg:space-x-8">
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Çiçekler</a>
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Ağaçlar</a>
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Topraklar</a>
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">İlaçlar</a>
-                    <a href="#" class="hover:text-flower-pink text-white transition duration-300">Saksılar</a>
-                </div>
-                <!--Menu End-->
-                <!--Userbox Start-->
-                <div class="flex items-center space-x-8">
-                    <div class="flex items-center lg:text-xl space-x-4">
-                        <a href="#"
-                            class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
-                                class="px-2 fas fa-cart-shopping"></i>Sepetim</a>
-                        <a href="#"
-                            class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
-                                class="px-2 fas fa-user"></i>Hesabım</a>
-                    </div>
-                </div>
-                <!--Userbox End-->
-            </nav>
-            <!--Navbar End-->
+			<!--Mobile Menu Start-->
+			<div class="hamburger pr-4 flex md:hidden items-center text-xl space-x-4">
+				<a href="#" class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
+			<!--Mobile Drop Menu Start-->
+			<div class="z-10 toggle hidden absolute bg-flower-green right-0 w-full top-[9%]">
+				<div class="flex flex-col items-center lg:text-xl space-y-3">
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">Çiçekler</a>
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">Ağaçlar</a>
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">Topraklar</a>
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">İlaçlar</a>
+					<a href="#" class="pb-3 hover:text-flower-pink text-white transition duration-300">Saksılar</a>
+				</div>
+			</div>
+			<!--Mobile Drop Menu End-->
+			<!--Mobile Menu End-->
 
-        </div>
-        <!-- Container End -->
 
-    </header>
-    <!--Header End-->
+			<!--Navbar Start-->
+			<nav class="hidden md:flex justify-between flex-1">
+				<!--Menu Start-->
+				<div class="flex items-center lg:text-xl space-x-4 lg:space-x-8">
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">Çiçekler</a>
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">Ağaçlar</a>
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">Topraklar</a>
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">İlaçlar</a>
+					<a href="#" class="hover:text-flower-pink text-white transition duration-300">Saksılar</a>
+				</div>
+				<!--Menu End-->
+				<!--Userbox Start-->
+				<div class="flex items-center space-x-8">
+					<div class="flex items-center lg:text-xl space-x-4">
+						<a href="#" class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
+								class="px-2 fas fa-cart-shopping"></i>Sepetim</a>
+						<a href="#" class="whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
+								class="px-2 fas fa-user"></i>Hesabım</a>
+					</div>
+				</div>
+				<!--Userbox End-->
+			</nav>
+			<!--Navbar End-->
+
+		</div>
+		<!-- Container End -->
+
+	</header>
+	<!--Header End-->
 
 
 
-    <!--Banner Section Start-->
-    <section class="relative group h-64 md:h-96 lg:h-512">
+	<!--Banner Section Start-->
+	<section class="relative group h-64 md:h-96 lg:h-512">
 
-        <img class="z-0 w-full h-full object-cover" src="images/garden.jpg" alt="garden">
-
-
-
-        <!--Banner Text Content Start-->
-        <div class="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-flower-green">
-            <!--Text Start-->
-            <div class="container">
-                <h3
-                    class="pl-4 md:pl-0 text-xl md:text-3xl lg:text-5xl text-white tracking-wider group-hover:mb-1 pb-2 duration-500">
-                    Zevkinize
-                    göre
-                    esnek
-                    hizmet.
-                </h3>
-                <h3
-                    class="pl-4 md:pl-0 text-xl md:text-2xl lg:text-4xl text-transparent bg-gradient-to-r bg-clip-text from-flower-yellow to bg-flower-pink text-flower-yellow tracking-wider group-hover:mb-2 pb-2 w-2/4 lg:w-2/3 duration-500">
-                    Eşsiz bahçe tasarımları ve bitkilerle hayatınıza heycan katın!
-                </h3>
-                <!--Text BTNS Start-->
-                <div class="flex space-x-8 opacity-0 group-hover:opacity-100 group-hover:mb-20 duration-1000">
-                    <a href="#"
-                        class="text-base lg:text-xl whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
-                            class="px-2 fas fa-eye"></i>Ürünleri Gör</a>
-                    <a href="#"
-                        class="text-base lg:text-xl whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
-                            class="px-2 fas fa-tag"></i>Sipariş Ver</a>
-                </div>
-                <!--Text BTNS End-->
-            </div>
-            <!--Text End-->
-        </div>
-        <!--Banner Text Content End-->
-    </section>
-
-
-    <!--Banner Section End-->
+		<img class="z-0 w-full h-full object-cover" src="images/garden.jpg" alt="garden">
 
 
 
+		<!--Banner Text Content Start-->
+		<div class="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-flower-green">
+			<!--Text Start-->
+			<div class="container">
+				<h3
+					class="pl-4 md:pl-0 text-xl md:text-3xl lg:text-5xl text-white tracking-wider group-hover:mb-1 pb-2 duration-500">
+					Zevkinize
+					göre
+					esnek
+					hizmet.
+				</h3>
+				<h3
+					class="pl-4 md:pl-0 text-xl md:text-2xl lg:text-4xl text-transparent bg-gradient-to-r bg-clip-text from-flower-yellow to bg-flower-pink text-flower-yellow tracking-wider group-hover:mb-2 pb-2 w-2/4 lg:w-2/3 duration-500">
+					Eşsiz bahçe tasarımları ve bitkilerle hayatınıza heycan katın!
+				</h3>
+				<!--Text BTNS Start-->
+				<div class="flex space-x-8 opacity-0 group-hover:opacity-100 group-hover:mb-20 duration-1000">
+					<a href="#"
+						class="text-base lg:text-xl whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
+							class="px-2 fas fa-eye"></i>Ürünleri Gör</a>
+					<a href="#"
+						class="text-base lg:text-xl whitespace-nowrap text-white hover:text-flower-pink transtion duration-300"><i
+							class="px-2 fas fa-tag"></i>Sipariş Ver</a>
+				</div>
+				<!--Text BTNS End-->
+			</div>
+			<!--Text End-->
+		</div>
+		<!--Banner Text Content End-->
+	</section>
+	<!--Banner Section End-->
+
+
+	<!--Flowers Section Start-->
+	<section class="py-24 bg-flower-green">
+		<!-- Flowers Start -->
+		<div class="container flex space-x-16">
+			<!--Left Start-->
+			<div class="basis-2/3">
+				<!--Flowers Menu Start-->
+				<div class="flex space-x-2 divide-x divide-flower-pink divide-opacity-50 mb-8">
+					<h2 class="text-flower-pink"><a href="#">Popüler</a></h2>
+					<h2 class="text-white pl-2 hover:text-flower-pink duration-500"><a href="#">Yeni</a></h2>
+					<h2 class="text-white pl-2 hover:text-flower-pink duration-500"><a href="#">Son</a></h2>
+				</div>
+				<!--Flowers Menu End-->
+
+				<!--IMG Flowers Start-->
+				<div class="flex flex-wrap">
+					<div class="group relative overflow-hidden basis-1/3 mb-2 px-2">
+						<img src="./images/flower1.jpg" class=" group-hover:scale-110 group-hover:opacity-40 duration-500">
+						<!--IMG Text Start-->
+						<div class="absolute px-6 bottom-8">
+							<h3 class="text-flower-yellow group-hover:text-flower-pink group-hover:mb-2 duration-500">
+								FLOWER 1</h3>
+							<p class="text-white text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">Tüm
+								özel
+								günlerde sevdiklerinize hediye edebileceğiniz ya da kendinizi şımartmak için
+								tercih edebileceğiniz şık ve özel bir seçenektir. Her an sizinle atan bir kalbe sahip
+								tüm sevdiklerinize teşekkür etmek, özel günlerde eşiniz, sevgiliniz ya da annenize masum
+								sevginizi göstermek için de gönderebileceğiniz zarif çiçekleridir.</p>
+							<!--IMG Icons Start-->
+							<div
+								class="absolute flex space-x-8 text-white opacity-0 group-hover:opacity-100 -bottom-2 group-hover:bottom-2 duration-500">
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-heart"></i></a>
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-bookmark"></i></a>
+							</div>
+							<!--IMG Icons End-->
+						</div>
+						<!--IMG Text End-->
+					</div>
+					<div class="group relative overflow-hidden basis-1/3 mb-2 px-2">
+						<img src="./images/flower1.jpg" class=" group-hover:scale-110 group-hover:opacity-40 duration-500">
+						<!--IMG Text Start-->
+						<div class="absolute px-6 bottom-8">
+							<h3 class="text-flower-yellow group-hover:text-flower-pink group-hover:mb-2 duration-500">
+								FLOWER 1</h3>
+							<p class="text-white text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">Tüm
+								özel
+								günlerde sevdiklerinize hediye edebileceğiniz ya da kendinizi şımartmak için
+								tercih edebileceğiniz şık ve özel bir seçenektir. Her an sizinle atan bir kalbe sahip
+								tüm sevdiklerinize teşekkür etmek, özel günlerde eşiniz, sevgiliniz ya da annenize masum
+								sevginizi göstermek için de gönderebileceğiniz zarif çiçekleridir.</p>
+							<!--IMG Icons Start-->
+							<div
+								class="absolute flex space-x-8 text-white opacity-0 group-hover:opacity-100 -bottom-2 group-hover:bottom-2 duration-500">
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-heart"></i></a>
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-bookmark"></i></a>
+							</div>
+							<!--IMG Icons End-->
+						</div>
+						<!--IMG Text End-->
+					</div>
+					<div class="group relative overflow-hidden basis-1/3 mb-2 px-2">
+						<img src="./images/flower1.jpg" class=" group-hover:scale-110 group-hover:opacity-40 duration-500">
+						<!--IMG Text Start-->
+						<div class="absolute px-6 bottom-8">
+							<h3 class="text-flower-yellow group-hover:text-flower-pink group-hover:mb-2 duration-500">
+								FLOWER 1</h3>
+							<p class="text-white text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">Tüm
+								özel
+								günlerde sevdiklerinize hediye edebileceğiniz ya da kendinizi şımartmak için
+								tercih edebileceğiniz şık ve özel bir seçenektir. Her an sizinle atan bir kalbe sahip
+								tüm sevdiklerinize teşekkür etmek, özel günlerde eşiniz, sevgiliniz ya da annenize masum
+								sevginizi göstermek için de gönderebileceğiniz zarif çiçekleridir.</p>
+							<!--IMG Icons Start-->
+							<div
+								class="absolute flex space-x-8 text-white opacity-0 group-hover:opacity-100 -bottom-2 group-hover:bottom-2 duration-500">
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-heart"></i></a>
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-bookmark"></i></a>
+							</div>
+							<!--IMG Icons End-->
+						</div>
+						<!--IMG Text End-->
+					</div>
+					<div class="group relative overflow-hidden basis-1/3 mb-2 px-2">
+						<img src="./images/flower1.jpg" class=" group-hover:scale-110 group-hover:opacity-40 duration-500">
+						<!--IMG Text Start-->
+						<div class="absolute px-6 bottom-8">
+							<h3 class="text-flower-yellow group-hover:text-flower-pink group-hover:mb-2 duration-500">
+								FLOWER 1</h3>
+							<p class="text-white text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">Tüm
+								özel
+								günlerde sevdiklerinize hediye edebileceğiniz ya da kendinizi şımartmak için
+								tercih edebileceğiniz şık ve özel bir seçenektir. Her an sizinle atan bir kalbe sahip
+								tüm sevdiklerinize teşekkür etmek, özel günlerde eşiniz, sevgiliniz ya da annenize masum
+								sevginizi göstermek için de gönderebileceğiniz zarif çiçekleridir.</p>
+							<!--IMG Icons Start-->
+							<div
+								class="absolute flex space-x-8 text-white opacity-0 group-hover:opacity-100 -bottom-2 group-hover:bottom-2 duration-500">
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-heart"></i></a>
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-bookmark"></i></a>
+							</div>
+							<!--IMG Icons End-->
+						</div>
+						<!--IMG Text End-->
+					</div>
+					<div class="group relative overflow-hidden basis-1/3 mb-2 px-2">
+						<img src="./images/flower1.jpg" class=" group-hover:scale-110 group-hover:opacity-40 duration-500">
+						<!--IMG Text Start-->
+						<div class="absolute px-6 bottom-8">
+							<h3 class="text-flower-yellow group-hover:text-flower-pink group-hover:mb-2 duration-500">
+								FLOWER 1</h3>
+							<p class="text-white text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">Tüm
+								özel
+								günlerde sevdiklerinize hediye edebileceğiniz ya da kendinizi şımartmak için
+								tercih edebileceğiniz şık ve özel bir seçenektir. Her an sizinle atan bir kalbe sahip
+								tüm sevdiklerinize teşekkür etmek, özel günlerde eşiniz, sevgiliniz ya da annenize masum
+								sevginizi göstermek için de gönderebileceğiniz zarif çiçekleridir.</p>
+							<!--IMG Icons Start-->
+							<div
+								class="absolute flex space-x-8 text-white opacity-0 group-hover:opacity-100 -bottom-2 group-hover:bottom-2 duration-500">
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-heart"></i></a>
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-bookmark"></i></a>
+							</div>
+							<!--IMG Icons End-->
+						</div>
+						<!--IMG Text End-->
+					</div>
+					<div class="group relative overflow-hidden basis-1/3 mb-2 px-2">
+						<img src="./images/flower1.jpg" class=" group-hover:scale-110 group-hover:opacity-40 duration-500">
+						<!--IMG Text Start-->
+						<div class="absolute px-6 bottom-8">
+							<h3 class="text-flower-yellow group-hover:text-flower-pink group-hover:mb-2 duration-500">
+								FLOWER 1</h3>
+							<p class="text-white text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">Tüm
+								özel
+								günlerde sevdiklerinize hediye edebileceğiniz ya da kendinizi şımartmak için
+								tercih edebileceğiniz şık ve özel bir seçenektir. Her an sizinle atan bir kalbe sahip
+								tüm sevdiklerinize teşekkür etmek, özel günlerde eşiniz, sevgiliniz ya da annenize masum
+								sevginizi göstermek için de gönderebileceğiniz zarif çiçekleridir.</p>
+							<!--IMG Icons Start-->
+							<div
+								class="absolute flex space-x-8 text-white opacity-0 group-hover:opacity-100 -bottom-2 group-hover:bottom-2 duration-500">
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-heart"></i></a>
+								<a href="#"><i class="hover:text-flower-pink fa-solid fa-bookmark"></i></a>
+							</div>
+							<!--IMG Icons End-->
+						</div>
+						<!--IMG Text End-->
+					</div>
+
+				</div>
+				<!--IMG Flowers End-->
+			</div>
+			<!--Left End-->
+
+
+			<!--Right Start-->
+			<div class="basis-1/3">
+				<!--Comment Menu Start-->
+				<h2 class="text-white">Yorumlar</h2>
+				<!--Comment Menu End-->
+
+				<!--Comments Start-->
+				<div class="flex flex-col h-full justify-between py-10">
+					<!--Comment Start-->
+					<div class="flex items-center group">
+						<div class="basis-1/3 h-full">
+							<img src="images/Planting1.jpg" class="h-full w-full object-cover group-hover:cursor-pointer">
+						</div>
+						<div
+							class="px-5 basis-2/3 text-white group-hover:text-flower-pink group-hover:cursor-pointer duration-500">
+							<p class="text-sm">Gerçekten çok güzel kaliteli de tereddüt etmeden alabilirsiniz ben çok
+								beğendiğim için
+								kardeşimede sipariş verdim teşekkür ederim işini iyi yapanlar her zaman kazanır.</p>
+							<p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">24.06.2023</p>
+						</div>
+					</div>
+
+					<div class="flex items-center group">
+						<div class="basis-1/3 h-full">
+							<img src="images/Planting2.jpg" class="h-full w-full object-cover group-hover:cursor-pointer">
+						</div>
+						<div
+							class="px-5 basis-2/3 text-white group-hover:text-flower-pink group-hover:cursor-pointer duration-500">
+							<p class="text-sm">Gerçekten çok güzel kaliteli de tereddüt etmeden alabilirsiniz ben çok
+								beğendiğim için
+								kardeşimede sipariş verdim teşekkür ederim işini iyi yapanlar her zaman kazanır.</p>
+							<p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">24.06.2023</p>
+						</div>
+					</div>
+
+					<div class="flex items-center group">
+						<div class="basis-1/3 h-full">
+							<img src="images/Planting3.jpg" class="h-full w-full object-cover group-hover:cursor-pointer">
+						</div>
+						<div
+							class="px-5 basis-2/3 text-white group-hover:text-flower-pink group-hover:cursor-pointer duration-500">
+							<p class="text-sm">Gerçekten çok güzel kaliteli de tereddüt etmeden alabilirsiniz ben çok
+								beğendiğim için
+								kardeşimede sipariş verdim teşekkür ederim işini iyi yapanlar her zaman kazanır.</p>
+							<p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">24.06.2023</p>
+						</div>
+					</div>
+
+					<div class="flex items-center group">
+						<div class="basis-1/3 h-full">
+							<img src="images/Planting4.jpg" class="h-full w-full object-cover group-hover:cursor-pointer">
+						</div>
+						<div
+							class="px-5 basis-2/3 text-white group-hover:text-flower-pink group-hover:cursor-pointer duration-500">
+							<p class="text-sm">Gerçekten çok güzel kaliteli de tereddüt etmeden alabilirsiniz ben çok
+								beğendiğim için
+								kardeşimede sipariş verdim teşekkür ederim işini iyi yapanlar her zaman kazanır.</p>
+							<p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">24.06.2023</p>
+						</div>
+					</div>
+
+					<div class="flex items-center group">
+						<div class="basis-1/3 h-full">
+							<img src="images/Planting5.jpg" class="h-full w-full object-cover group-hover:cursor-pointer">
+						</div>
+						<div
+							class="px-5 basis-2/3 text-white group-hover:text-flower-pink group-hover:cursor-pointer duration-500">
+							<p class="text-sm">Gerçekten çok güzel kaliteli de tereddüt etmeden alabilirsiniz ben çok
+								beğendiğim için
+								kardeşimede sipariş verdim teşekkür ederim işini iyi yapanlar her zaman kazanır.</p>
+							<p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">24.06.2023</p>
+						</div>
+					</div>
+					<!--Comment End-->
+				</div>
+				<!--Comments End-->
+
+			</div>
+			<!--Right End-->
+		</div>
+		<!-- Flowers End -->
+	</section>
+	<!--Flowers Section End-->
 
 
 
-    <!--JS-->
-    <script src="js/script.js"></script>
+
+
+
+	<!--JS-->
+	<script src="js/script.js"></script>
 </body>
 
 </html>
