@@ -29,6 +29,8 @@ module.exports = {
         512: '32rem',
       }
     },
+
+
   },
   plugins: [],
 }
