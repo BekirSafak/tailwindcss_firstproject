@@ -27,6 +27,11 @@ module.exports = {
 
       spacing: {
         512: '32rem',
+      },
+
+      // Burada custom radius eklendi.
+      borderRadius: {
+        'large': '45px',
       }
     },
 
