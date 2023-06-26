@@ -615,6 +615,10 @@ a {
   z-index: 10;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -687,6 +691,10 @@ a {
   flex-basis: 75%;
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
@@ -725,6 +733,10 @@ a {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -913,6 +925,14 @@ a {
   padding-bottom: 0.75rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -931,6 +951,11 @@ a {
 
 .font-open {
   font-family: Open Sans, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
@@ -1095,6 +1120,10 @@ a {
     flex-basis: 25%;
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:pl-0 {
     padding-left: 0px;
   }
@@ -1107,6 +1136,11 @@ a {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -1196,6 +1230,11 @@ a {
     padding-left: 0px;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1209,6 +1248,11 @@ a {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:text-xl {
